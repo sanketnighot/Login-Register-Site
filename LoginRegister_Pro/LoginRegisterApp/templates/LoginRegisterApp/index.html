@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Register Form</title>
+    </head>
+    <body>
+
+        <div class="container">
+    <h1>Report An Issue</h1>
+
+
+
+<form  action="" method="POST" >
+	{% csrf_token %}
+<table style="padding: 4; text-align: left;">
+{{ RegisterForm }}
+</table>
+
+
+	<input type="submit" name="Submit" value="Register">
+
+</form>
+
+</div>
+
+    </body>
+
+
+
+</html>
